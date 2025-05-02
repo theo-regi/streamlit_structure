@@ -1,0 +1,55 @@
+/* Streamlit Theme Customization */
+.stApp {
+    background-color: #FFFFFF !important;
+    /*color: #002060;*/
+    font-family: "Arial", sans-serif;
+}
+
+title, h1, h2, h3, h4, h5, h6 {
+    color: #002060; /* Dark Blue */
+}
+
+/* Couleur des labels de champs d'input Streamlit */
+label, .stTextInput label, .stNumberInput label, .stSelectbox label {
+    color: #002060 !important;
+    font-weight: 500;
+}
+
+/* Sidebar customization */
+.css-1lcbmhc.e1fqkh3o2 { /* Main sidebar container */
+    background-color: #EAEAEA; /* Light Gray */
+    color: #002060; /* Dark Blue */
+    border-right: 3px solid #002060;
+}
+
+.css-qri22k { /* Sidebar header */
+    color: #002060; /* Dark Blue */
+}
+
+/* Button customization */
+.css-1n76uvr.e1ewe7hr3 { /* Button color */
+    background-color: #FFFFFF; /* Dauphine Blue */
+    color: #002060; /* White */
+    border: none;
+}
+.css-1n76uvr.e1ewe7hr3:hover { /* Button hover effect */
+    background-color: #004080; /* Slightly darker blue */
+}
+
+/* Footer (Optional, if used) */
+footer {
+    background-color: #002060; /* Dark Blue */
+    color: #FFFFFF;
+    text-align: center;
+    padding: 10px;
+}
+
+.success-box {
+    background-color: #e6f4ea;
+    border-left: 6px solid #34a853;
+    color: #1e4620;
+    padding: 10px 15px;
+    border-radius: 6px;
+    margin-top: 10px;
+    font-weight: 500;
+}
