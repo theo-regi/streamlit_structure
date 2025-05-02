@@ -4,7 +4,7 @@ import os
 #----------------------------Script pour modifier les constantes de base de l'appli---------------------
 #-------------------------------------------------------------------------------------------------------
 APP_DIR = os.path.dirname(os.path.abspath(__file__))
-DATA_PATH = os.path.join(APP_DIR, "data") + "\\"
+DATA_PATH = os.path.join(APP_DIR, "data")
 
 #Option market file path:
 FILE_PATH=os.path.join(DATA_PATH, "options.csv")
